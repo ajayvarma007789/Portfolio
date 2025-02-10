@@ -1,0 +1,45 @@
+# Base Image
+FROM ubuntu:latest  
+LABEL maintainer="Asthra CTF Team"  
+
+# Install required tools including Apache
+RUN apt update && apt install -y \
+    apache2 php libapache2-mod-php \
+    wget exiftool steghide zip  
+
+# Set working directory
+WORKDIR /var/www/html/stego_challenges  
+
+# 1️⃣ Exif Metadata Challenge
+RUN wget -O image1.jpg https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg  
+RUN exiftool -Comment="FLAG{exif_hidden_data}" image1.jpg  
+
+# 2️⃣ Base64 Encoded Exif Data
+RUN wget -O image2.jpg https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg  
+RUN exiftool -Comment="U0VDUkVUX0tFWV9ITkRFREVOV0lUSEVYSUZ8" image2.jpg  
+
+# 3️⃣ Hidden ZIP in PNG (Polyglot)
+RUN wget -O image3.png https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg  
+RUN echo "FLAG{hidden_zip_inside_png}" > secret.txt && zip hidden.zip secret.txt  
+RUN cat image3.png hidden.zip > image3.png  
+
+# 4️⃣ Zero-Width Characters in HTML
+RUN echo '<html><body><!-- FLAG{zero_width_space} --></body></p> there is a flag hidden within this webpage </p> </html>' > hidden_flag.html  
+
+# 🔘 Main index page with buttons
+RUN echo '<html><head><title>Stego Challenges</title></head><body>' \
+         '<h1>Welcome to Steganography Challenges</h1>' \
+         '<button onclick="location.href=`image1.jpg`">Challenge 1: Exif Metadata</button><br><br>' \
+         '<button onclick="location.href=`image2.jpg`">Challenge 2: Base64 in Exif</button><br><br>' \
+         '<button onclick="location.href=`image3.png`">Challenge 3: Hidden ZIP in PNG</button><br><br>' \
+         '<button onclick="location.href=`hidden_flag.html`">Challenge 4: Zero-Width Characters</button><br><br>' \
+         '</body></html>' > index.html  
+
+# Fix Apache error (set ServerName)
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+# Expose Apache Server
+EXPOSE 80  
+
+# Start Apache and keep the container running
+ENTRYPOINT  ["bash", "-c", "service apache2 start && tail -f /dev/null"]
