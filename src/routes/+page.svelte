@@ -1,5 +1,13 @@
-<script>
+
+
+
+
+<script lang=ts>
     import Textanimation from "../components/textanimation.svelte";
+    import type { Config } from '@sveltejs/adapter-vercel';
+    export const config: Config = {
+	runtime: 'edge'
+};
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
