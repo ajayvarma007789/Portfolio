@@ -6,7 +6,7 @@
     // Props for the component
     export let text: string;
     export let animationDelay: number = 0.5;
-    export let animationDuration: number = 2;
+    export let animationDuration: number = 1;
     export let staggerDelay: number = 0.07;
     export let xOffset: number = 20;
     export let ease: string = "power2.out";

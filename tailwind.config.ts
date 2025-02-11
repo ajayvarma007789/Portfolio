@@ -16,3 +16,5 @@ export default {
 
 	plugins: [typography, forms, containerQueries]
 } satisfies Config;
+
+// tailwind.config.js
