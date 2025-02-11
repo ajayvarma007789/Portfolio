@@ -10,7 +10,7 @@
         }
         .animate-fadeIn {
             animation: fadeIn 2s ease-in-out forwards;
-            animation-delay: 1s;
+            animation-delay: 0.75s;
         }
 </style>
 
