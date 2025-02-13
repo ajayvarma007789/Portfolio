@@ -10,7 +10,6 @@
         }
         .animate-fadeIn {
             animation: fadeIn 2s ease-in-out forwards;
-            animation-delay: 0.7s;
         }
 </style>
 
@@ -20,7 +19,7 @@
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
-    <img src="/header.png" alt="logo" class="w-[60px]">
+    <img src="/header.png" loading="eager" alt="logo" class="w-[60px]">
     <p class="text-2xl  hidden sm:block">Ajay Varma</p>
 </header>
 
@@ -31,13 +30,53 @@
     <img class="text-white -mt-36 px-10 sm:w-[900px] w-[400px]" src="/Group 1.png" alt="i am a designer">
 </section>
 <section id="About" class="h-screen w-full">
-    <div class="md:text-5xl sm:text-4xl text-xl font-bold font-Montserrat flex flex-col justify-center items-center">
+    <div class="lg:text-5xl md:text-4xl text-2xl font-bold font-Montserrat flex flex-col justify-center items-center">
         <Textanimation text="FRONTEND DEVELOPER"/>
         <Textanimation text="AND"/>
         <Textanimation text="GRAPHICS DESIGNER"/>
     </div>
-    <div class="md:text-xl sm:text-lg text-sm font-Montserrat  flex flex-col items-center m-5 mx-20">
+    <div class="lg:text-xl md:text-lg text-sm font-Montserrat  flex flex-col items-center m-5 mx-20 opacity-60">
         <Textanimation text="I am <em>AJAY VARMA<em/>, Self-taught Frontend Web Developer and Graphics Designer. Computer Science with Cyber Security Engineering Student at SJCET Palai"/>
+    </div>
+
+    <div class="text-2xl md:text-3xl lg:text-4xl font-Montserrat flex flex-col items-center mt-20 sm:mt-15">
+        <em>
+            <Textanimation text="Tools used so far"/>
+        </em>
+    </div>
+
+    <div class="lg:text-xl md:text-lg text-sm font-Montserrat  flex flex-col items-center -mb-14 opacity-60">
+        <Textanimation text="[Tools,Softwares and Libraries used]"/>
+    </div>
+
+    <div class="grid items-center justify-center my-20 mx-40 gap-6 grid-cols-2 lg:grid-cols-8 md:grid-cols-4" >
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
+        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
+            <img src="" alt="VS Code" class="w-12 h-12">
+        </div>
     </div>
     
 </section>
@@ -67,4 +106,3 @@
     <p class="text-white">hello</p>
 
 </section>
-
