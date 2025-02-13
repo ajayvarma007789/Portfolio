@@ -43,6 +43,11 @@
 		"vitest": "^3.0.0"
 	},
 	"dependencies": {
-		"gsap": "^3.12.7"
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"clsx": "^2.1.1",
+		"gsap": "^3.12.7",
+		"motion": "^12.4.2",
+		"svelte-motion": "^0.12.2",
+		"tailwind-merge": "^3.0.1"
 	}
 }

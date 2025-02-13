@@ -50,34 +50,60 @@
         <Textanimation text="[Tools,Softwares and Libraries used]"/>
     </div>
 
-    <div class="grid items-center justify-center my-20 mx-40 gap-6 grid-cols-2 lg:grid-cols-8 md:grid-cols-4" >
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+    <div class="grid justify-items-center my-20 mx-40 gap-1 grid-cols-2 lg:grid-cols-8 md:grid-cols-4" >
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/vscode.svg" loading="lazy" alt="VS Code" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/css.svg" loading="lazy" alt="python" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/html.svg" loading="lazy" alt="c" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/bootstrap.svg" loading="lazy" alt="java" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/tailwindcss.svg" loading="lazy" alt="javascript" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/reactjs.svg" loading="lazy" alt="typescript" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/next.js.svg" loading="lazy" alt="godot" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/shadcn.svg" loading="lazy" alt="svelte" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex items-center w-24 h-24 justify-center rounded-md bg-black bg-opacity-50 hover:bg-opacity-0 transition duration-300 ">
-            <img src="" alt="VS Code" class="w-12 h-12">
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/javascript.svg" loading="lazy" alt="react" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/typescript.svg" loading="lazy" alt="html" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/svelte.svg" loading="lazy" alt="css" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/vite.svg" loading="lazy" alt="bootstrap" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/git.svg" loading="lazy" alt="tailwind" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/figma.svg" loading="lazy" alt="mysql" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/python.svg" loading="lazy" alt="git" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/java.svg" loading="lazy" alt="github" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/photoshop.svg" loading="lazy" alt="figma" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        
+        
     </div>
     
 </section>
