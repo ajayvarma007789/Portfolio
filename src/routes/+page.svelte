@@ -19,7 +19,7 @@
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
-    <img src="/header.png" loading="eager" alt="logo" class="w-[60px]">
+    <img src="/header.png" loading="lazy" alt="logo" class="w-[60px]">
     <p class="text-2xl  hidden sm:block">Ajay Varma</p>
 </header>
 
