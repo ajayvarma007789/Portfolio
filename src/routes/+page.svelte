@@ -10,6 +10,7 @@
         }
         .animate-fadeIn {
             animation: fadeIn 2s ease-in-out forwards;
+            animation-delay: 0.7s;
         }
 </style>
 
@@ -19,7 +20,7 @@
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
-    <img src="/header.png" loading="lazy" alt="logo" class="w-[60px]">
+    <img src="/header.png" alt="logo" class="w-[60px]">
     <p class="text-2xl  hidden sm:block">Ajay Varma</p>
 </header>
 
