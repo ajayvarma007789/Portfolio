@@ -41,7 +41,7 @@
 
     <div class="text-2xl md:text-3xl lg:text-4xl font-Montserrat flex flex-col items-center mt-20 sm:mt-15">
         <em>
-            <Textanimation text="Tools used so far"/>
+            <Textanimation text="Tools i learned till now "/>
         </em>
     </div>
 
