@@ -9,8 +9,7 @@
             }
         }
         .animate-fadeIn {
-            animation: fadeIn 2s ease-in-out forwards;
-            
+            animation: fadeIn 2.5s ease-in-out forwards;   
         }
 </style>
 
@@ -106,7 +105,7 @@
     
     <div id="contact" class="grid gap-10 mb-10 mx-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center">
         <a href="https://github.com/ajayvarma007789">
-            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
                 <img src="/github.svg" alt="github" class="w-16">
                 <div class="">
                     <p class="font-Montserrat lg:text-lg sm:text-md">Github</p>
@@ -115,25 +114,25 @@
             </div>
         </a>
         <a href="https://www.instagram.com/ajaydesigns2023?igsh=MWdrZ2pwNm4yMzl5dQ==">
-            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
-                <img src="/github.svg" alt="github" class="w-16">
-                <div class="">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
+                <img src="/instagram.svg" alt="instagram" class="w-14">
+                <div >
                     <p class="font-Montserrat lg:text-lg sm:text-md">Instagram</p>
                     <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me through instagram</p></em>
                 </div>
             </div>
         </a><a href="https://www.linkedin.com/in/ajay-varma-aaa71933b/">
-            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
-                <img src="/github.svg" alt="github" class="w-16">
-                <div class="">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
+                <img src="/linkedin.svg" alt="linkedin" class="w-14">
+                <div >
                     <p class="font-Montserrat lg:text-lg sm:text-md">Linkedin</p>
                     <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me though linkedin</p></em>
                 </div>
             </div>
         </a><a href="https://x.com/AJAYVARMA123629">
-            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
-                <img src="/github.svg" alt="github" class="w-16">
-                <div class="">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
+                <img src="/twitter.svg" alt="x" class="w-14">
+                <div >
                     <p class="font-Montserrat lg:text-lg sm:text-md">Twitter</p>
                     <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me through twitter</p></em>
                 </div>
