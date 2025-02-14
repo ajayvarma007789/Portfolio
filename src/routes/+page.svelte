@@ -10,7 +10,7 @@
         }
         .animate-fadeIn {
             animation: fadeIn 2s ease-in-out forwards;
-            animation-delay: 0.7s;
+            
         }
 </style>
 
@@ -28,7 +28,7 @@
     <img class="text-white sm:-mt-36 px-10 sm:w-[800px] animate-fadeIn  w-[400px]" src="/Group 14.svg" alt="i am a developer">
 </section>
 <section id="Home" class=" flex justify-center items-center h-[50vh] sm:h-screen w-full">
-    <img class="text-white -mt-36 px-10 sm:w-[900px] w-[400px]" src="/Group 1.png" alt="i am a designer">
+    <img class="text-white -mt-36 px-10 sm:w-[900px] w-[400px] animate-fadeIn" src="/Group 1.png" alt="i am a designer">
 </section>
 <section id="About" class="h-screen w-full">
     <div class="lg:text-5xl md:text-4xl text-2xl font-bold font-Montserrat flex flex-col justify-center items-center">
