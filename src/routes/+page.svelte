@@ -36,7 +36,7 @@
         <Textanimation text="AND"/>
         <Textanimation text="GRAPHICS DESIGNER"/>
     </div>
-    <div class="lg:text-xl md:text-lg text-sm font-Montserrat  flex flex-col items-center m-5 mx-20 opacity-60">
+    <div class="lg:text-lg md:text-md text-sm font-Montserrat  flex flex-col items-center m-5 mx-20 opacity-60">
         <Textanimation text="I am <em>AJAY VARMA<em/>, Self-taught Frontend Web Developer and Graphics Designer. Computer Science with Cyber Security Engineering Student at SJCET Palai"/>
     </div>
 
@@ -46,90 +46,102 @@
         </em>
     </div>
 
-    <div class="lg:text-xl md:text-lg text-sm font-Montserrat  flex flex-col items-center -mb-14 opacity-60">
-        <Textanimation text="[Tools,Softwares and Libraries used]"/>
+    <div class="lg:text-lg md:text-md text-sm font-Montserrat  flex flex-col items-center -mb-8 opacity-60">
+        <Textanimation text="Tools,Softwares and Libraries used"/>
     </div>
 
-    <div class="grid justify-items-center my-20 mx-40 gap-1 grid-cols-2 lg:grid-cols-8 md:grid-cols-4" >
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+    <div class="grid justify-items-center my-20 mx-10 sm:mx-40 gap-1 grid-cols-2 lg:grid-cols-8 md:grid-cols-4 overflow-scroll" >
+        <div class="flex group items-center  hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/vscode.svg" loading="lazy" alt="VS Code" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/css.svg" loading="lazy" alt="python" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/html.svg" loading="lazy" alt="c" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center  hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/bootstrap.svg" loading="lazy" alt="java" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center  hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/tailwindcss.svg" loading="lazy" alt="javascript" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/reactjs.svg" loading="lazy" alt="typescript" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/next.js.svg" loading="lazy" alt="godot" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/shadcn.svg" loading="lazy" alt="svelte" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/javascript.svg" loading="lazy" alt="react" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/typescript.svg" loading="lazy" alt="html" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/svelte.svg" loading="lazy" alt="css" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/vite.svg" loading="lazy" alt="bootstrap" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/git.svg" loading="lazy" alt="tailwind" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/figma.svg" loading="lazy" alt="mysql" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/python.svg" loading="lazy" alt="git" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/java.svg" loading="lazy" alt="github" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        <div class="flex group items-center backdrop-blur-md hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+        <div class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/photoshop.svg" loading="lazy" alt="figma" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
-        
-        
+    </div>
+    
+    <div id="contact" class="grid gap-10 mb-10 mx-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center">
+        <a href="https://github.com/ajayvarma007789">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
+                <img src="/github.svg" alt="github" class="w-16">
+                <div class="">
+                    <p class="font-Montserrat lg:text-lg sm:text-md">Github</p>
+                    <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">look here for more of my projects</p></em>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/ajaydesigns2023?igsh=MWdrZ2pwNm4yMzl5dQ==">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
+                <img src="/github.svg" alt="github" class="w-16">
+                <div class="">
+                    <p class="font-Montserrat lg:text-lg sm:text-md">Instagram</p>
+                    <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me through instagram</p></em>
+                </div>
+            </div>
+        </a><a href="https://www.linkedin.com/in/ajay-varma-aaa71933b/">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
+                <img src="/github.svg" alt="github" class="w-16">
+                <div class="">
+                    <p class="font-Montserrat lg:text-lg sm:text-md">Linkedin</p>
+                    <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me though linkedin</p></em>
+                </div>
+            </div>
+        </a><a href="https://x.com/AJAYVARMA123629">
+            <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-md border  border-gray-700 transition-all duration-300">
+                <img src="/github.svg" alt="github" class="w-16">
+                <div class="">
+                    <p class="font-Montserrat lg:text-lg sm:text-md">Twitter</p>
+                    <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me through twitter</p></em>
+                </div>
+            </div>
+        </a>
+    
     </div>
     
 </section>
-<section id="Projects" class="h-screen w-full">
-    <img class="text-white" src="" alt="coolpic2">
-    <!-- projectcards -->
-    <p class="text-white">hello</p>
-
-</section>
-<section id="Contact" class="h-screen w-full">
-    <a href="githublink"><img src="" alt="github"></a>
-    <a href="instalink"><img src="" alt="github"></a>
-    <a href="linkedin"><img src="" alt="github"></a>
-    <a href="dribbble"><img src="" alt="github"></a>
-    <a href="x"><img src="" alt="github"></a>
-    <a href="whatsapp"><img src="" alt="github"></a>
-    <p class="text-white">hello</p>
 
 
-</section>
-<section id="Skills" class="h-screen w-full">
-    <!-- tools and frame works -->
-    <p class="text-white">hello</p>
-
-</section>
-<section id="Footer">
-    <p class="text-white">hello</p>
-
-</section>
