@@ -141,6 +141,15 @@
                 </div>
             </div>
         </a>
+    <a href="https://dribbble.com/AjayVarmadesignare">
+        <div id="dribbble" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
+            <img src="/dribbble.svg" alt="dribbble" class="w-14">
+            <div >
+                <p class="font-Montserrat lg:text-lg sm:text-md">Dribbble</p>
+                <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">Look at my designs in dribbble</p></em>
+            </div>
+        </div>
+    </a>
     
     </div>
     
