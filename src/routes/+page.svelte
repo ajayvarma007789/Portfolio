@@ -99,7 +99,10 @@
             <img src="/java.svg" loading="lazy" alt="github" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
         <div title="photoshop" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/photoshop.svg" loading="lazy" alt="figma" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+            <img src="/photoshop.svg" loading="lazy" alt="photoshop" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div title="Docker" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/docker.svg" loading="lazy" alt="docker" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
     </div>
     
