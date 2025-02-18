@@ -104,6 +104,12 @@
         <div title="Docker" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img src="/docker.svg" loading="lazy" alt="docker" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
         </div>
+        <div title="Bash" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/bash.svg" loading="lazy" alt="Bash" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
+        <div title="Powershell" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <img src="/powershell.svg" loading="lazy" alt="Powershell" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+        </div>
     </div>
     
     <div id="contact" class="grid gap-10 mb-10 mx-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center">
@@ -132,7 +138,8 @@
                     <em><p class="font-Montserrat lg:text-md sm:text-sm opacity-70">contact me though linkedin</p></em>
                 </div>
             </div>
-        </a><a href="https://x.com/AJAYVARMA123629">
+        </a>
+        <a href="https://x.com/AJAYVARMA123629">
             <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
                 <img src="/twitter.svg" alt="x" class="w-14">
                 <div >
@@ -141,6 +148,7 @@
                 </div>
             </div>
         </a>
+        
     <a href="https://dribbble.com/AjayVarmadesignare">
         <div id="dribbble" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
             <img src="/dribbble.svg" alt="dribbble" class="w-14">
