@@ -35,8 +35,6 @@
     <img src="/header.png" alt="logo" class="w-[60px]">
     <p class="text-2xl  hidden sm:block">Ajay Varma</p>
 </header>
-
-
 <section id="Home" class="flex justify-center items-center sm:h-screen h-[50vh] w-full">
     <img class="text-white sm:-mt-36 px-10 sm:w-[800px] animate-fadeIn  w-[400px]" src="/Group 14.svg" alt="i am a developer">
 </section>
@@ -52,26 +50,21 @@
     <div class="lg:text-lg md:text-md text-sm font-Montserrat  flex flex-col items-center m-5 mx-20 opacity-60">
         <Textanimation text="I am <em>AJAY VARMA<em/>, Self-taught Frontend Web Developer and Graphics Designer. Computer Science with Cyber Security Engineering Student at SJCET Palai"/>
     </div>
-
     <div class="text-2xl md:text-3xl lg:text-4xl font-Montserrat flex flex-col items-center mt-20 sm:mt-15">
         <em>
             <Textanimation text="Tools i learned till now "/>
         </em>
     </div>
-
     <div class="lg:text-lg md:text-md text-sm font-Montserrat  flex flex-col items-center opacity-60">
         <Textanimation text="Tools,Softwares and Libraries used"/>
     </div>
-
     <div class="grid justify-items-center mt-20 mx-10 sm:mx-40 gap-1 grid-cols-2 lg:grid-cols-8 md:grid-cols-4 overflow-visible" >
         {#each images as image}
             <div title="git" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-                <img src={image.src}  loading="lazy" alt={image.alt} class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+                <img src={image.src} alt={image.alt} class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
             </div>
         {/each}
     </div>
-
-   
 </section>
 <section id="Projects" class="w-full sm:mb-16 text-white">
 
@@ -83,13 +76,11 @@
     <div class="grid justify-items-center my-20 mx-10 sm:mx-40 gap-10 grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
     {#each projects as project}
             <div title="git" class="flex items-center justify-center">
-                <img src={project.src}  loading="lazy" alt={project.alt} class="project-card">
+                <img src={project.src} alt={project.alt} class="project-card ">
             </div>
         {/each}
     </div>
 </section>
-
-
 <section id="contact">
     <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
         <a href="mailto:ajaydesigns75@gmail.com">
@@ -97,7 +88,6 @@
             <img src="email-30.png" alt="Email"> 
         </div>
         </a>
-        
         <div class="flex gap-5 hover:bg-white/5 hover:backdrop-blur-lg justify-center items-center p-5 text-white rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img class="w-[30px]" src="phone.png" alt="Phone"> 
             <p>
@@ -105,7 +95,6 @@
             </p>
         </div>
     </div>
-
 <div id="contact" class="grid gap-10 mb-10 mx-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center">
     <a href="https://github.com/ajayvarma007789">
         <div id="github" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
@@ -142,7 +131,6 @@
             </div>
         </div>
     </a>
-    
     <a href="https://dribbble.com/AjayVarmadesignare">
         <div id="dribbble" class="flex text-white p-5 gap-10 items-center hover:bg-white/10 hover:backdrop-blur-lg justify-center rounded-xl border  border-gray-700 transition-all duration-300">
             <img src="/dribbble.svg" alt="dribbble" class="w-14">
@@ -153,8 +141,6 @@
         </div>
     </a>
 </div>
-    
-
 </section>
 
 
