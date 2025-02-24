@@ -48,6 +48,7 @@
 		"gsap": "^3.12.7",
 		"motion": "^12.4.2",
 		"svelte-motion": "^0.12.2",
-		"tailwind-merge": "^3.0.1"
+		"tailwind-merge": "^3.0.1",
+		"tweened": "^0.1.2"
 	}
 }

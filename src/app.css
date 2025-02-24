@@ -8,3 +8,18 @@ body{
     border: 0px;
     margin: 0px;
 }
+.project-card:hover{
+    transform:scale(1.1);
+    --tw-border-opacity: 1;
+    border-color: rgb(55 65 81 / var(--tw-border-opacity, 1))
+}
+
+.project-card{
+    width: 300px;
+    border-width: 1px;
+    border-radius:12px;
+    border-color: transparent;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}

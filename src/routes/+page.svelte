@@ -15,8 +15,20 @@
 
 
 <script lang=ts>
-    import Textanimation from "../components/textanimation.svelte";    
+    import Textanimation from "../components/textanimation.svelte"; 
+    import { onMount } from "svelte";  
+    
+    let images: any[] = [];
+    let projects: any[] = [];
 
+    onMount(async () => {
+        const response = await fetch("/tools.json");
+        images = await response.json();
+    });
+    onMount(async () => {
+        const response = await fetch("/projects.json");
+        projects = await response.json();
+    });
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
@@ -52,74 +64,15 @@
     </div>
 
     <div class="grid justify-items-center mt-20 mx-10 sm:mx-40 gap-1 grid-cols-2 lg:grid-cols-8 md:grid-cols-4 overflow-visible" >
-        <div title="vscode" class="flex group items-center  hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/vscode.svg" loading="lazy" alt="VS Code" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="css" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/css.svg" loading="lazy" alt="python" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="html" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/html.svg" loading="lazy" alt="c" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="bootstrap" class="flex group items-center  hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/bootstrap.svg" loading="lazy" alt="java" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="tailwindcss" class="flex group items-center  hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/tailwindcss.svg" loading="lazy" alt="javascript" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="reactjs" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/reactjs.svg" loading="lazy" alt="typescript" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="nextjs" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/next.js.svg" loading="lazy" alt="godot" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="shadcn" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/shadcn.svg" loading="lazy" alt="svelte" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="javascript" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/javascript.svg" loading="lazy" alt="react" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="typescript" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/typescript.svg" loading="lazy" alt="html" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="svelte" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/svelte.svg" loading="lazy" alt="css" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="vite" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/vite.svg" loading="lazy" alt="bootstrap" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="git" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/git.svg" loading="lazy" alt="tailwind" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="figma" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/figma.svg" loading="lazy" alt="mysql" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="python" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/python.svg" loading="lazy" alt="git" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="java" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/java.svg" loading="lazy" alt="github" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="photoshop" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/photoshop.svg" loading="lazy" alt="photoshop" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="Docker" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/docker.svg" loading="lazy" alt="docker" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="Bash" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/bash.svg" loading="lazy" alt="Bash" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        <div title="Powershell" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
-            <img src="/powershell.svg" loading="lazy" alt="Powershell" class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
-        </div>
-        
+        {#each images as image}
+            <div title="git" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+                <img src={image.src}  loading="lazy" alt={image.alt} class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
+            </div>
+        {/each}
     </div>
-    
-    
-        
-    
-</section>
 
+   
+</section>
 <section id="Projects" class="w-full sm:mb-16 text-white">
 
     <div class="text-2xl md:text-3xl lg:text-5xl font-Montserrat font-bold flex flex-col items-center mb-32">
@@ -127,62 +80,15 @@
             <Textanimation text="Projects"/>
         </em>
     </div>
-
     <div class="grid justify-items-center my-20 mx-10 sm:mx-40 gap-10 grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
-        <div title="project" class="flex items-center justify-center ">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/3.webp" alt="project">
-        </div>
-        
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/4.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300 " src="/projects/5.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/6.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px] hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/7.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px] hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/8.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/9.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/10.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/11.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/12.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/13.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/14.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center rounded-xl">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/15.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/16.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center ">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/17.webp" alt="project">
-        </div>
-        <div title="project" class="flex items-center justify-center">
-            <img class="w-[300px]  hover:w-[350px] rounded-xl border border-transparent hover:border-gray-700 transition-all duration-300" src="/projects/2.webp" alt="project">
-        </div>
-
+    {#each projects as project}
+            <div title="git" class="flex items-center justify-center">
+                <img src={project.src}  loading="lazy" alt={project.alt} class="project-card">
+            </div>
+        {/each}
     </div>
-
-   
 </section>
+
 
 <section id="contact">
     <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
@@ -247,6 +153,7 @@
         </div>
     </a>
 </div>
+    
 
 </section>
 
