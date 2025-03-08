@@ -25,10 +25,6 @@
         const response = await fetch("/tools.json");
         images = await response.json();
     });
-    onMount(async () => {
-        const response = await fetch("/projects.json");
-        projects = await response.json();
-    });
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
@@ -60,7 +56,7 @@
     </div>
     <div class="grid justify-items-center mt-20 mx-10 sm:mx-40 gap-1 grid-cols-2 lg:grid-cols-8 md:grid-cols-4 overflow-visible" >
         {#each images as image}
-            <div title="git" class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
+            <div title={image.title}  class="flex group items-center hover:bg-white/5 hover:backdrop-blur-lg w-full h-24 justify-center rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
                 <img src={image.src} alt={image.alt} class="group-hover:w-12 w-10 opacity-90 transition-all duration-300">
             </div>
         {/each}
@@ -74,12 +70,42 @@
         </em>
     </div>
     <div class="grid justify-items-center my-20 mx-10 sm:mx-40 gap-10 grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
-    {#each projects as project} 
-            <div title="git" class="flex items-center justify-center">
-                <img src={project.src} alt={project.alt} class="project-card">
+            <div class="flex items-center justify-center">
+                <img src="/2.webp" alt="project" class="project-card">
             </div>
-        {/each}
+            <div class="flex items-center justify-center">
+                <img src="/3.webp" alt="project" class="project-card">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/4.webp" alt="project" class="project-card">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/7.webp" alt="project" class="project-card">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/8.webp" alt="project" class="project-card">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/19.webp" alt="project" class="project-card">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/22.webp" alt="project" class="project-card">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/23.png" alt="project" class="project-card">
+            </div>
     </div>
+    <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
+        <a href="/projects">
+            <div class="flex gap-5 hover:bg-white/5 hover:backdrop-blur-lg justify-center items-center p-5 py-2 text-white rounded-full border border-transparent hover:border-gray-700 transition-all duration-300">
+                <p>
+                    See More
+                </p>
+            </div>
+        </a>
+    </div>
+    
+
 </section>
 <section id="contact">
     <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
