@@ -28,14 +28,14 @@
 </script>
 
 <header class=" mt-8 text-white font-Montserrat flex justify-center items-center md:gap-[500px] gap-[300px]">
-    <img src="/header.png" alt="logo" class="w-[60px]">
+    <img src="/header.webp" alt="logo" class="w-[60px]">
     <p class="text-2xl  hidden sm:block">Ajay Varma</p>
 </header>
 <section id="Home" class="flex justify-center items-center sm:h-screen h-[50vh] w-full">
     <img class="text-white sm:-mt-36 px-10 sm:w-[800px] animate-fadeIn  w-[400px]" src="/Group 14.svg" alt="i am a developer">
 </section>
 <section id="Home" class=" flex justify-center items-center h-[50vh] sm:h-screen w-full">
-    <img class="text-white -mt-36 px-10 sm:w-[900px] w-[400px] animate-fadeIn" src="/Group 1.png" alt="i am a designer">
+    <img class="text-white -mt-36 px-10 sm:w-[900px] w-[400px] animate-fadeIn" src="/Group 1.webp" alt="i am a designer">
 </section>
 <section id="About" class=" mb-16 w-full">
     <div class="lg:text-5xl md:text-4xl text-2xl font-bold font-Montserrat flex flex-col justify-center items-center">
@@ -92,7 +92,7 @@
                 <img src="/22.webp" alt="project" class="project-card">
             </div>
             <div class="flex items-center justify-center">
-                <img src="/23.png" alt="project" class="project-card">
+                <img src="/23.webp" alt="project" class="project-card">
             </div>
     </div>
     <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
