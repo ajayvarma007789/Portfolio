@@ -74,9 +74,9 @@
         </em>
     </div>
     <div class="grid justify-items-center my-20 mx-10 sm:mx-40 gap-10 grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
-    {#each projects as project}
+    {#each projects as project} 
             <div title="git" class="flex items-center justify-center">
-                <img src={project.src} alt={project.alt} class="project-card ">
+                <img src={project.src} alt={project.alt} class="project-card">
             </div>
         {/each}
     </div>
