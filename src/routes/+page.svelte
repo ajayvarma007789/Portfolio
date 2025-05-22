@@ -15,11 +15,27 @@
 
 
 <script lang=ts>
+	import { CardStack } from '$lib/components/ui/cardstack';
     import Textanimation from "../components/textanimation.svelte"; 
     import { onMount } from "svelte";  
     
     let images: any[] = [];
     let projects: any[] = [];
+
+    const testimonials = [
+        {
+            id: 1,
+            name: "Salmaan Faariz",
+            designation: "MakeMyPass",
+            content: "Ajay Varma  <span class='bg-emerald-100 px-1 py-0.5 font-bold text-emerald-700 dark:bg-emerald-700/[0.2] dark:text-emerald-500'>brought clean, user-friendly design</span> to MakeMyPass. He worked on our new Participant Engagement application designed for mobile his User Interface work improved the apps experience noticeably.  <span class='bg-emerald-100 px-1 py-0.5 font-bold text-emerald-700 dark:bg-emerald-700/[0.2] dark:text-emerald-500'>A pleasure to work with!</span>"
+        },
+        {
+            id: 2,
+            name: "Salmaan Faariz",
+            designation: "MakeMyPass",
+            content: "Ajay Varma  <span class='bg-emerald-100 px-1 py-0.5 font-bold text-emerald-700 dark:bg-emerald-700/[0.2] dark:text-emerald-500'>brought clean, user-friendly design</span> to MakeMyPass. He worked on our new Participant Engagement application designed for mobile his User Interface work improved the apps experience noticeably.  <span class='bg-emerald-100 px-1 py-0.5 font-bold text-emerald-700 dark:bg-emerald-700/[0.2] dark:text-emerald-500'>A pleasure to work with!</span>"
+        },
+    ];
 
     onMount(async () => {
         const response = await fetch("/tools.json");
@@ -63,12 +79,13 @@
     </div>
 </section>
 <section id="Projects" class="w-full sm:mb-16 text-white">
-
     <div class="text-2xl md:text-3xl lg:text-5xl font-Montserrat font-bold flex flex-col items-center mb-32">
         <em>
             <Textanimation text="Projects"/>
         </em>
     </div>
+
+
     <div class="grid justify-items-center my-20 mx-10 sm:mx-40 gap-10 grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
             <div class="flex items-center justify-center">
                 <img src="/2.webp" alt="project" class="project-card">
@@ -97,7 +114,7 @@
     </div>
     <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
         <a href="/projects">
-            <div class="flex gap-5 hover:bg-white/5 hover:backdrop-blur-lg justify-center items-center p-5 py-2 text-white rounded-full border border-transparent hover:border-gray-700 transition-all duration-300">
+            <div class="flex gap-5 hover:bg-white/5 hover:backdrop-blur-lg justify-center items-center p-5 py-2 text-white rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
                 <p>
                     See More
                 </p>
@@ -106,6 +123,17 @@
     </div>
     
 
+</section>
+<section id="Testimonials" class="w-full sm:mb-16 text-white">
+    <div class="flex flex-col items-center justify-center">
+        <div class="text-2xl md:text-3xl lg:text-5xl font-Montserrat font-bold flex flex-col items-center mb-10 md:mb-20">
+            <em><Textanimation text="Testimonials"/></em>
+        </div>
+        <div class="relative z-10 ml-0 md:ml-20">
+            <CardStack items={testimonials} />
+        </div>
+            
+    </div>
 </section>
 <section id="contact">
     <div class="flex gap-5 -mt-12 mb-10 justify-center items-center  ">
