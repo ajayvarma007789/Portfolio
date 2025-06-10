@@ -145,7 +145,7 @@
         <div class="flex gap-5 hover:bg-white/5 hover:backdrop-blur-lg justify-center items-center p-5 text-white rounded-md border border-transparent hover:border-gray-700 transition-all duration-300">
             <img class="w-[30px]" src="phone.png" alt="Phone"> 
             <p>
-                +919530204516
+                +919539204516
             </p>
         </div>
     </div>
